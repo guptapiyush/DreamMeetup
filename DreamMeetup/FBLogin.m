@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Gautam Madaan. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "FBLogin.h"
 
 @interface ViewController ()
 
