@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FacebookSDK/FacebookSDK.h>
+#import "User.h"
+#import "FillFirstList.h"
 
-@interface ViewController : UIViewController
-
+@interface FBLogin: UIViewController <FBLoginViewDelegate>
+@property(weak, nonatomic) IBOutlet FBLoginView *loginView;
 
 @end
 
